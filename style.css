@@ -154,7 +154,8 @@ hr{
         top: 100px;
         right: 140px;
     }
-    .contaier4{
+    .container4{
+        background-color: black;
         position: relative;
         top: 250px;
     }
