@@ -1,0 +1,182 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+    position: relative;
+    height: 500px;
+    width: 1000px;
+    background-color: black;
+    left: 250px;
+    border-radius: 20px;
+   
+}
+.text{
+    position: relative;
+    color: white;
+    font-size: 2rem;
+    width: 300px;
+    right: 200px;
+    left: 100px;
+    top: 50px;
+}
+.text2{
+    font-size: small;
+}
+.butt{
+    background-color: red;
+    padding: 10px;
+    border-radius: 10px;
+    color: white;
+}
+.img{
+    position: relative;
+    left: 150px;
+
+}
+.img img{
+    height: 500px;
+}
+/* section--1 */
+.container1{
+    position: relative;
+    background-color: black;
+    height: 300px;
+    width: 250px;
+    left: 40px;
+    top: 100px;
+    border-radius: 10px;
+}
+
+.container1 h3{
+    color:black;position: relative;
+
+    width: 150px;
+    text-align: center;
+    background-color: white;
+    left: 30px;
+    top: 50px;
+    border-radius: 10px;
+    padding: 20px;
+    
+}
+#red{
+    background-color: red;
+}
+/* section--2 */
+.container3{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 20px;
+    width: 500px;
+    position: relative;
+    left: 300px;
+    bottom: 200px;
+}
+/* section---3 */
+.contaier4{
+    background-color: black;
+    
+}
+.foot{
+    height: 200px;
+}
+.foot h1{
+    color: white;
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+.contact{
+    display: flex;
+    color: white;
+    padding:5px
+}
+.contact p{
+    margin-left: 100px;
+    font-size: small;
+}
+hr{
+    width: 1200px;
+}
+/*--------------
+ media for phone 
+ */--------------
+@media only screen and (max-width: 600px) {
+    .container{
+        width: 400px;
+        position: relative;
+        left: 100px;
+        background-color:black
+        display: flex;
+        flex-direction: column;
+        height: 842px;
+    
+    }
+    .text{
+        position: relative;
+        left: 70px;
+        font-size: large;
+        width: 250px;
+    }
+    .butt{
+        padding: 20px;
+        position: relative;
+        top: 30px;
+        left: 50px;
+    }
+    img{
+        position: relative;
+        top: 200px;
+        right: 150px;
+        top: 100px;
+        width: 400px;
+    }
+    .container1{
+        background-color: aliceblue;
+        position: relative;
+        left: 190px;
+        bottom: 1500px;
+    }
+    .container3{
+        position: relative;
+        top: 100px;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        right: 300px;
+    }
+    .all-img img{
+        width: 300px;
+        border-radius: 15px;
+    }
+    .debag{
+        position: relative;
+        width: 300px;
+        top: 100px;
+        right: 140px;
+    }
+    .contaier4{
+        position: relative;
+        top: 250px;
+    }
+    .contact{
+        display: flex;
+        position: relative;
+        flex-direction: column;
+        text-align: center;
+        right: 40px;
+        height: 300px;
+        width: 100%;
+        border-radius: 20px;
+        
+    }
+    .foot h1{
+        height: 50px;
+    }
+    
+}
+   
